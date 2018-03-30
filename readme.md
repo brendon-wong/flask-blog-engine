@@ -18,7 +18,7 @@ The following instructions are for MacOS. See the Installation part of the Flask
 3. Run the app with `flask run`
 4. View the app in a web browser at http://localhost:5000
 
-## Database and testing
+## Database management and testing
 - Use `flask initdb` to create the database/overwrite an existing database with a blank database
 - Run tests by navigating to the root directory and entering the command `pytest`
 
