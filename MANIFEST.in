@@ -1,0 +1,3 @@
+graft /flask_blog_engine/templates
+graft /flask_blog_engine/static
+include /flask_blog_engine/schema.sql
