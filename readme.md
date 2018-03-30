@@ -10,7 +10,7 @@ The following instructions are for MacOS. See the Installation part of the Flask
 3. Activate the virtual environment with `. venv/bin/activate` (Deactivate the virtual environment by entering `deactivate` in the terminal)
 4. Install Flask with `pip3 install Flask`
 5. Install the application by running the command `pip3 install --editable .` in the project's root directory
-6. Support testing by installing pytest with `pip3 install pytest`
+6. Enable testing by installing pytest with `pip3 install pytest`
 
 ## To run the application:
 1. Activate the virtual environment with `. venv/bin/activate`
