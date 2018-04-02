@@ -69,7 +69,7 @@ def add_entry():
     if not session.get('logged_in'):
         abort(401)
     db = get_db()
-    # ? mark formatting is SQL injection protection with SQLite3
+    # The (?, ?) formatting is SQLite3's SQL injection protection 
     db.execute('insert into entries (title, text) values (?, ?)',
              [request.form['title'], request.form['text']])
     db.commit()
